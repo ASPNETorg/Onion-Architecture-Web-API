@@ -1,0 +1,15 @@
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\bin\Debug\net9.0\RepositoryLayer.deps.json
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\bin\Debug\net9.0\RepositoryLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\bin\Debug\net9.0\RepositoryLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\bin\Debug\net9.0\DomainLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\bin\Debug\net9.0\DomainLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.AssemblyInfoInputs.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.AssemblyInfo.cs
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\Reposito.A0A61804.Up2Date
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\refint\RepositoryLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\RepositoryLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\RepositoryService\obj\Debug\net9.0\ref\RepositoryLayer.dll

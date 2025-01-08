@@ -1,0 +1,17 @@
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.csproj.AssemblyReference.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.AssemblyInfoInputs.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.AssemblyInfo.cs
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.csproj.CoreCompileInputs.cache
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\ServiceLayer.deps.json
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\ServiceLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\ServiceLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\DomainLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\RepositoryLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\DomainLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\bin\Debug\net9.0\RepositoryLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceL.3037F684.Up2Date
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\refint\ServiceLayer.dll
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ServiceLayer.pdb
+C:\Users\PC\Source\Repos\OnionArchitecture.WebAPI\Service Layer\obj\Debug\net9.0\ref\ServiceLayer.dll
