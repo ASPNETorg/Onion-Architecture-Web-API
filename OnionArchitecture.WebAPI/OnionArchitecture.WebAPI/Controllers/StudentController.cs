@@ -9,8 +9,10 @@ namespace OnionArchitecture.WebAPI.Controllers
     [ApiController]
     public class StudentsController : ControllerBase
     {
+        #region [- Property -]
         private readonly ICustomService<Student> _customService;
-        private readonly ProjectDbContext _applicationDbContext;
+        private readonly ProjectDbContext _applicationDbContext; 
+        #endregion
 
         #region [- Ctor -]
         public StudentsController(ICustomService<Student> customService,

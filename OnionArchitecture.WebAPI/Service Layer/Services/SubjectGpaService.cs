@@ -6,11 +6,18 @@ namespace ServiceLayer.Services
 {
     public class SubjectGpasService : ICustomService<SubjectGpas>
     {
+        #region [- Property -]
         private readonly IRepository<SubjectGpas> _studentRepository;
+        #endregion
+
+        #region [- Ctor -]
         public SubjectGpasService(IRepository<SubjectGpas> studentRepository)
         {
             _studentRepository = studentRepository;
         }
+        #endregion
+
+        #region [- Delete() -]
         public void Delete(SubjectGpas entity)
         {
             try
@@ -26,6 +33,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- GetById() -]
         public SubjectGpas Get(Guid? Id)
         {
             try
@@ -45,6 +55,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- GetAll() -]
         public IEnumerable<SubjectGpas> GetAll()
         {
             try
@@ -64,6 +77,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Insert() -]
         public void Insert(SubjectGpas entity)
         {
             try
@@ -79,6 +95,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Remove() -]
         public void Remove(SubjectGpas entity)
         {
             try
@@ -94,6 +113,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Update() -]
         public void Update(SubjectGpas entity)
         {
             try
@@ -108,6 +130,7 @@ namespace ServiceLayer.Services
             {
                 throw;
             }
-        }
+        } 
+        #endregion
     }
 }

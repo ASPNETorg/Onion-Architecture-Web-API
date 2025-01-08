@@ -7,11 +7,18 @@ namespace ServiceLayer.Services
 {
     public class DepartmentService : ICustomService<Departments>
     {
+        #region [- Property -]
         private readonly IRepository<Departments> _studentRepository;
+        #endregion
+
+        #region [- Ctor -]
         public DepartmentService(IRepository<Departments> studentRepository)
         {
             _studentRepository = studentRepository;
         }
+        #endregion
+
+        #region [- delete() -]
         public void Delete(Departments entity)
         {
             try
@@ -27,6 +34,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- GetById() -]
         public Departments Get(Guid? Id)
         {
             try
@@ -46,6 +56,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- GetAll() -]
         public IEnumerable<Departments> GetAll()
         {
             try
@@ -65,6 +78,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Insert() -]
         public void Insert(Departments entity)
         {
             try
@@ -80,6 +96,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Remove() -]
         public void Remove(Departments entity)
         {
             try
@@ -95,6 +114,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Update() -]
         public void Update(Departments entity)
         {
             try
@@ -109,6 +131,7 @@ namespace ServiceLayer.Services
             {
                 throw;
             }
-        }
+        } 
+        #endregion
     }
 }

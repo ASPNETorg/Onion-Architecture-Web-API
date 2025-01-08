@@ -16,7 +16,7 @@ var ConnectionString = builder.Configuration.GetConnectionString("DefaultConnect
 builder.Services.AddDbContext<ProjectDbContext>(options => options.UseSqlServer(ConnectionString));
 builder.Services.AddControllers();
 
-#region [- SQLInjection -]
+#region [- DependencyInjection -]
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped<ICustomService<Student>, StudentService>();
 builder.Services.AddScoped<ICustomService<DomainLayer.Models.DomainModels.Results>, ResultService>();

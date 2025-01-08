@@ -6,11 +6,18 @@ namespace ServiceLayer.Services
 {
     public class StudentService : ICustomService<Student>
     {
+        #region [- Property -]
         private readonly IRepository<Student> _studentRepository;
+        #endregion
+
+        #region [- Ctor -]
         public StudentService(IRepository<Student> studentRepository)
         {
             _studentRepository = studentRepository;
         }
+        #endregion
+
+        #region [- Delete() -]
         public void Delete(Student entity)
         {
             try
@@ -26,6 +33,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Get() -]
         public Student Get(Guid? Id)
         {
             try
@@ -45,6 +55,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- GetAll() -]
         public IEnumerable<Student> GetAll()
         {
             try
@@ -64,6 +77,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Insert() -]
         public void Insert(Student entity)
         {
             try
@@ -79,6 +95,10 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+
+        #endregion
+
+        #region [- Remove() -]
         public void Remove(Student entity)
         {
             try
@@ -94,6 +114,9 @@ namespace ServiceLayer.Services
                 throw;
             }
         }
+        #endregion
+
+        #region [- Update() -]
         public void Update(Student entity)
         {
             try
@@ -108,7 +131,8 @@ namespace ServiceLayer.Services
             {
                 throw;
             }
-        }
+        } 
+        #endregion
     }
 }
 
